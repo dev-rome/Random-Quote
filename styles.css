@@ -67,6 +67,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-inline: var(--spacing-16);
 }
 
 .quote {
@@ -76,7 +77,6 @@ body {
   background-size: cover;
   position: relative;
   padding: var(--spacing-32) var(--spacing-32) var(--spacing-40);
-  width: clamp(388px, 90%, 500px);
   z-index: 0;
   border-radius: 12px;
   text-align: center;
@@ -160,5 +160,13 @@ body {
   .new-quote:hover,
   .share-quote:hover {
     cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding-inline: 0;
   }
 }

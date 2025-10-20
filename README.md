@@ -9,11 +9,11 @@
 
 <div align="center">
   <h3>
-    <a href="#">
+    <a href="https://incomparable-empanada-5162fa.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="#">
+    <a href="https://devchallenges.io/solution/60464">
       Solution
     </a>
     <span> | </span>
