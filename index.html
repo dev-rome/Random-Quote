@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Random Quote App Challenge" />
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <link
+      rel="preload"
+      href="fonts/Outfit-Regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="fonts/Outfit-Medium.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="fonts/Outfit-Bold.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <link
+      rel="preload"
+      href="styles.css"
+      as="style"
+      onload="this.rel='stylesheet'"
+    />
+    <noscript><link rel="stylesheet" href="styles.css" /></noscript>
+    <script src="script.js" defer></script>
+    <title>Random Quote | devChallenges.io</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <figure class="quote">
+          <figcaption class="quote-author">Loading...</figcaption>
+          <div class="quote-tags-container"></div>
+          <blockquote class="quote-content">
+            Fetching a random quote...
+          </blockquote>
+        </figure>
+        <div class="button-container">
+          <button class="new-quote">
+            Random
+            <img
+              src="resources/regroup.svg"
+              alt="Regroup Icon"
+              aria-hidden="true"
+            />
+          </button>
+          <button class="share-quote">
+            <span class="share-text">Share</span>
+            <img src="resources/link.svg" alt="Share Icon" aria-hidden="true" />
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <!-- <div class="author-info">
+      Coded by <a href="#">Your Name Here</a> | Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        >devChallenges.io</a
+      >.
+    </div> -->
+  </body>
+</html>
